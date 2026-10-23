@@ -28,16 +28,16 @@ const mixed = [1, "two", 3]; // Prediction:
 // Then remove the `//` of one line after the other and check your prediction. Read every error message.
 // Comment the line out again afterwards.
 
-// city = 42; // Prediction:
-// city = "Hamburg"; // Prediction:
-// hobbies.push(3); // Prediction:
-// grades[0] = "A"; // Prediction:
-// student.age = "23"; // Prediction:
-// student.email = "max@example.com"; // Prediction:
-// language = "JavaScript"; // Prediction:
-// framework = "Vue"; // Prediction:
-// mixed.push(true); // Prediction:
-
+/*  city = 42; // Prediction: // error
+ city = "Hamburg"; // Prediction: // ok
+ hobbies.push(3); // Prediction: // error
+ grades[0] = "A"; // Prediction: // error
+ student.age = "23"; // Prediction: error
+ student.email = "max@example.com"; // Prediction: // error
+ language = "JavaScript"; // Prediction: // error
+ framework = "Vue"; // Prediction: // ok
+mixed.push(true); // Prediction: // error
+ */
 // Step 6: Create an empty array `tags` that may only hold strings.
 // Make sure that `tags.push(1)` is an error. Remove the line again afterwards.
 

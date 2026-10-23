@@ -1,15 +1,15 @@
 // Snippet 1
-let count: number = "3";
+let count: number = 3;
 
 // Snippet 2
-const names: string[] = ["Anna", "Ben", 42];
+const names: string[] = ["Anna", "Ben", "42"];
 
 // Snippet 3
-const user: { name: string; age: number } = { name: "Max" };
-console.log(user.email);
+const user: { name: string; age: number } = { name: "Max", age: 30 };
+console.log(user.name);
 
 // Snippet 4
-const counter = undefined;
+const counter = 3;
 const next = counter + 1;
 console.log(next);
 
